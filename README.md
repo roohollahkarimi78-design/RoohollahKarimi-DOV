@@ -1,4 +1,4 @@
-# Roohollah Karimi
+# User guide
 The folder of "Conventional_Exact_xi_eta" contain all the MATLAB functions required to compute the components of the Helmert deflection of the vertical (DOV) 
 from global geopotential models (GGMs) using both the conventional method and the exact (proposed) method.
 
