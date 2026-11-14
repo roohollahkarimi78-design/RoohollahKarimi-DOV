@@ -12,22 +12,36 @@ The computations are based on the EIGEN-6C4 GGM and the GRS80 reference ellipsoi
 The files of "Cnm_EIGEN_6C4_zero_tide.mat" and "Snm_EIGEN_6C4_zero_tide.mat" contain the Cnm and Snm coefficients for the EIGEN-6C4 model in the zero-tide system.
 
 Additionally, a sample dataset named "Test_Data.txt" containing 5 test points, along with a MATLAB program named  
-"Test_Prog_Conventional_Exact_xi_eta.m", is provided for testing the functions and programs. 
+"Test_Prog_Conventional_Exact_xi_eta.m", is provided for testing the functions and programs.
+
 The format of the "Test_Data.txt" file is as follows:
 
 Column 1: Point number
+
 Column 2: Geodetic latitude (in degrees)
+
 Column 3: Geodetic longitude (in degrees)
+
 Column 4: Geodetic height (in meters)
-After running the program of "Test_Prog_Conventional_Exact_xi_eta.m", the outputs are saved in a file named "Conventional_Exact_xi_eta_Test_Data.mat"
+
+After running the program of "Test_Prog_Conventional_Exact_xi_eta.m", the outputs are saved in a file named "Conventional_Exact_xi_eta_Test_Data.mat".
+
 The format of the "Conventional_Exact_xi_eta_Test_Data.mat" file is as follows:
+
 Column 1: Point number
+
 Column 2: Geodetic latitude (in degrees)
+
 Column 3: Geodetic longitude (in degrees)
+
 Column 4: Geodetic height (in meters)
+
 Column 5: xi from the conventional method in arcseconds
+
 Column 6: eta from the conventional method in arcseconds
+
 Column 7: xi from the exact method in arcseconds
+
 Column 8: eta from the exact method in arcseconds
 
 Important note:
