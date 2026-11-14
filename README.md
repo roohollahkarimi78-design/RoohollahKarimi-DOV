@@ -1,11 +1,16 @@
 # Roohollah_Karimi
 The folder of "Conventional_Exact_xi_eta" contain all the MATLAB functions required to compute the components of the Helmert deflection of the vertical (DOV) 
 from global geopotential models (GGMs) using both the conventional method and the exact (proposed) method.
+
 The main functions are "Conventional_xi_eta.m" and "Exact_xi_eta.m" that compute the north-south, xi, and east-west, eta, components of the Helmert DOV 
 based on the geodetic coordinates of the computation point.
+
 Descriptions for each function, along with all required parameters, including inputs and outputs, are provided within the function itself. 
+
 The computations are based on the EIGEN-6C4 GGM and the GRS80 reference ellipsoid. However, the GGM and the reference ellipsoid can be changed.
+
 The files of "Cnm_EIGEN_6C4_zero_tide.mat" and "Snm_EIGEN_6C4_zero_tide.mat" contain the Cnm and Snm coefficients for the EIGEN-6C4 model in the zero-tide system.
+
 Additionally, a sample dataset named "Test_Data.txt" containing 5 test points, along with a MATLAB program named  
 "Test_Prog_Conventional_Exact_xi_eta.m", is provided for testing the functions and programs. 
 The format of the "Test_Data.txt" file is as follows:
