@@ -12,7 +12,7 @@ The files of "Cnm_EIGEN_6C4_zero_tide.mat" and "Snm_EIGEN_6C4_zero_tide.mat" con
 
 The dataset files used in the study regions, named "IRN.mat", "USA.mat", "ALP.mat", and "AUS.mat", are located in the "Conventional_Exact_xi_eta" folder. 
 
-The format of the data is as follows:
+The format of the dataset files is as follows:
 
 Column 1: Point number
 
@@ -26,7 +26,7 @@ The programs of "Prog_Conventional_Exact_xi_eta_IRN.m", "Prog_Conventional_Exact
 compute the components of the Helmert DOV for the study regions. The outputs are saved in the files named "Conventional_Exact_xi_eta_IRN.mat", "Conventional_Exact_xi_eta_USA.mat", 
 "Conventional_Exact_xi_eta_ALP.mat", and "Conventional_Exact_xi_eta_AUS.mat".
 
-The format of the outputs is as follows:
+The format of the output files is as follows:
 
 Column 1: Point number
 
