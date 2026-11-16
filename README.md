@@ -8,13 +8,11 @@ based on the geodetic coordinates of the computation point.
 Descriptions for each function, along with all required parameters, including inputs and outputs, are provided within the function itself. 
 
 The computations are based on the EIGEN-6C4 GGM and the GRS80 reference ellipsoid. However, the GGM and the reference ellipsoid can be changed.
-
 The files of "Cnm_EIGEN_6C4_zero_tide.mat" and "Snm_EIGEN_6C4_zero_tide.mat" contain the Cnm and Snm coefficients for the EIGEN-6C4 model in the zero-tide system.
 
-Additionally, a sample dataset named "Test_Data.txt" containing 5 test points, along with a MATLAB program named  
-"Test_Prog_Conventional_Exact_xi_eta.m", is provided for testing the functions and programs.
+The dataset files used in the study regions, named "IRN.mat", "USA.mat", "ALP.mat", and "AUS.mat", are located in the "Conventional_Exact_xi_eta" folder. 
 
-The format of the "Test_Data.txt" file is as follows:
+The format of the data is as follows:
 
 Column 1: Point number
 
@@ -24,9 +22,11 @@ Column 3: Geodetic longitude (in degrees)
 
 Column 4: Geodetic height (in meters)
 
-After running the program of "Test_Prog_Conventional_Exact_xi_eta.m", the outputs are saved in a file named "Conventional_Exact_xi_eta_Test_Data.mat".
+The programs of "Prog_Conventional_Exact_xi_eta_IRN.m", "Prog_Conventional_Exact_xi_eta_USA.m", "Prog_Conventional_Exact_xi_eta_ALP.m", and "Prog_Conventional_Exact_xi_eta_AUS.m" 
+compute the components of the Helmert DOV for the study regions. The outputs are saved in the files named "Conventional_Exact_xi_eta_IRN.mat", "Conventional_Exact_xi_eta_USA.mat", 
+"Conventional_Exact_xi_eta_ALP.mat", and "Conventional_Exact_xi_eta_AUS.mat".
 
-The format of the "Conventional_Exact_xi_eta_Test_Data.mat" file is as follows:
+The format of the outputs is as follows:
 
 Column 1: Point number
 
@@ -50,3 +50,4 @@ degrees exceeding 2065 should not be used within the geodetic latitude range of 
 
 If you have any questions regarding functions, programs, or data, please feel free to contact the corresponding author.
 E-mail: karimi@tafreshu.ac.ir, roohollah.karimi.78@gmail.com
+ 
