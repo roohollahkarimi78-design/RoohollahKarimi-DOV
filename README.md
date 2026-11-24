@@ -36,13 +36,13 @@ Column 3: Geodetic longitude (in degrees)
 
 Column 4: Geodetic height (in meters)
 
-Column 5: xi from the conventional method in arcseconds
+Column 5: xi from the conventional method (in arcseconds)
 
-Column 6: eta from the conventional method in arcseconds
+Column 6: eta from the conventional method (in arcseconds)
 
-Column 7: xi from the exact method in arcseconds
+Column 7: xi from the exact method (in arcseconds)
 
-Column 8: eta from the exact method in arcseconds
+Column 8: eta from the exact method (in arcseconds)
 
 Important note:
 Due to computational limitations in the MATLAB software regarding the calculation of Legendre functions at high degrees for specific geodetic latitudes, 
